@@ -1,0 +1,134 @@
+{
+  "instrukcje": [
+    {
+      "nazwa": "numer",
+      "wartosc": {
+        "wartosc": 10.0,
+        "typ": "Liczba"
+      },
+      "typ": "Przypisanie"
+    },
+    {
+      "warunek": {
+        "typ": "<=",
+        "argument1": {
+          "nazwa": "numer",
+          "typ": "Zmienna"
+        },
+        "argument2": {
+          "wartosc": 2.0,
+          "typ": "Liczba"
+        }
+      },
+      "blok_prawda": {
+        "instrukcje": [
+          {
+            "wartosc": 1.0,
+            "typ": "Liczba"
+          }
+        ],
+        "typ": "Blok"
+      },
+      "blok_falsz": {
+        "instrukcje": [
+          {
+            "nazwa": "x1",
+            "wartosc": {
+              "wartosc": 1.0,
+              "typ": "Liczba"
+            },
+            "typ": "Przypisanie"
+          },
+          {
+            "nazwa": "x2",
+            "wartosc": {
+              "wartosc": 1.0,
+              "typ": "Liczba"
+            },
+            "typ": "Przypisanie"
+          },
+          {
+            "nazwa": "index",
+            "wartosc": {
+              "wartosc": 3.0,
+              "typ": "Liczba"
+            },
+            "typ": "Przypisanie"
+          },
+          {
+            "warunek": {
+              "typ": "<=",
+              "argument1": {
+                "nazwa": "index",
+                "typ": "Zmienna"
+              },
+              "argument2": {
+                "nazwa": "numer",
+                "typ": "Zmienna"
+              }
+            },
+            "blok": {
+              "instrukcje": [
+                {
+                  "nazwa": "temp",
+                  "wartosc": {
+                    "typ": "Plus",
+                    "argument1": {
+                      "nazwa": "x1",
+                      "typ": "Zmienna"
+                    },
+                    "argument2": {
+                      "nazwa": "x2",
+                      "typ": "Zmienna"
+                    }
+                  },
+                  "typ": "Przypisanie"
+                },
+                {
+                  "nazwa": "x1",
+                  "wartosc": {
+                    "nazwa": "x2",
+                    "typ": "Zmienna"
+                  },
+                  "typ": "Przypisanie"
+                },
+                {
+                  "nazwa": "x2",
+                  "wartosc": {
+                    "nazwa": "temp",
+                    "typ": "Zmienna"
+                  },
+                  "typ": "Przypisanie"
+                },
+                {
+                  "nazwa": "index",
+                  "wartosc": {
+                    "typ": "Plus",
+                    "argument1": {
+                      "nazwa": "index",
+                      "typ": "Zmienna"
+                    },
+                    "argument2": {
+                      "wartosc": 1.0,
+                      "typ": "Liczba"
+                    }
+                  },
+                  "typ": "Przypisanie"
+                }
+              ],
+              "typ": "Blok"
+            },
+            "typ": "While"
+          },
+          {
+            "nazwa": "x2",
+            "typ": "Zmienna"
+          }
+        ],
+        "typ": "Blok"
+      },
+      "typ": "If"
+    }
+  ],
+  "typ": "Blok"
+}

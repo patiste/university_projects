@@ -1,0 +1,241 @@
+{
+  "instrukcje": [
+    {
+      "nazwa": "x",
+      "wartosc": {
+        "wartosc": 10.0,
+        "typ": "Liczba"
+      },
+      "typ": "Przypisanie"
+    },
+    {
+      "nazwa": "y",
+      "wartosc": {
+        "wartosc": 6.0,
+        "typ": "Liczba"
+      },
+      "typ": "Przypisanie"
+    },
+    {
+      "nazwa": "aaa",
+      "wartosc": {
+        "typ": "Minus",
+        "argument1": {
+          "nazwa": "x",
+          "typ": "Zmienna"
+        },
+        "argument2": {
+          "nazwa": "y",
+          "typ": "Zmienna"
+        }
+      },
+      "typ": "Przypisanie"
+    },
+    {
+      "nazwa": "xxx",
+      "wartosc": {
+        "wartosc": 1.0,
+        "typ": "Liczba"
+      },
+      "typ": "Przypisanie"
+    },
+    {
+      "warunek": {
+        "typ": ">",
+        "argument1": {
+          "nazwa": "x",
+          "typ": "Zmienna"
+        },
+        "argument2": {
+          "wartosc": 1.0,
+          "typ": "Liczba"
+        }
+      },
+      "blok": {
+        "instrukcje": [
+          {
+            "nazwa": "xxx",
+            "wartosc": {
+              "typ": "Razy",
+              "argument1": {
+                "nazwa": "x",
+                "typ": "Zmienna"
+              },
+              "argument2": {
+                "nazwa": "xxx",
+                "typ": "Zmienna"
+              }
+            },
+            "typ": "Przypisanie"
+          },
+          {
+            "nazwa": "x",
+            "wartosc": {
+              "typ": "Minus",
+              "argument1": {
+                "nazwa": "x",
+                "typ": "Zmienna"
+              },
+              "argument2": {
+                "wartosc": 1.0,
+                "typ": "Liczba"
+              }
+            },
+            "typ": "Przypisanie"
+          }
+        ],
+        "typ": "Blok"
+      },
+      "typ": "While"
+    },
+    {
+      "nazwa": "yyy",
+      "wartosc": {
+        "wartosc": 1.0,
+        "typ": "Liczba"
+      },
+      "typ": "Przypisanie"
+    },
+    {
+      "warunek": {
+        "typ": ">",
+        "argument1": {
+          "nazwa": "y",
+          "typ": "Zmienna"
+        },
+        "argument2": {
+          "wartosc": 1.0,
+          "typ": "Liczba"
+        }
+      },
+      "blok": {
+        "instrukcje": [
+          {
+            "nazwa": "yyy",
+            "wartosc": {
+              "typ": "Razy",
+              "argument1": {
+                "nazwa": "y",
+                "typ": "Zmienna"
+              },
+              "argument2": {
+                "nazwa": "yyy",
+                "typ": "Zmienna"
+              }
+            },
+            "typ": "Przypisanie"
+          },
+          {
+            "nazwa": "y",
+            "wartosc": {
+              "typ": "Minus",
+              "argument1": {
+                "nazwa": "y",
+                "typ": "Zmienna"
+              },
+              "argument2": {
+                "wartosc": 1.0,
+                "typ": "Liczba"
+              }
+            },
+            "typ": "Przypisanie"
+          }
+        ],
+        "typ": "Blok"
+      },
+      "typ": "While"
+    },
+    {
+      "nazwa": "xxx",
+      "wartosc": {
+        "typ": "Dzielenie",
+        "argument1": {
+          "nazwa": "xxx",
+          "typ": "Zmienna"
+        },
+        "argument2": {
+          "nazwa": "yyy",
+          "typ": "Zmienna"
+        }
+      },
+      "typ": "Przypisanie"
+    },
+    {
+      "nazwa": "zzz",
+      "wartosc": {
+        "wartosc": 1.0,
+        "typ": "Liczba"
+      },
+      "typ": "Przypisanie"
+    },
+    {
+      "warunek": {
+        "typ": ">",
+        "argument1": {
+          "nazwa": "aaa",
+          "typ": "Zmienna"
+        },
+        "argument2": {
+          "wartosc": 1.0,
+          "typ": "Liczba"
+        }
+      },
+      "blok": {
+        "instrukcje": [
+          {
+            "nazwa": "zzz",
+            "wartosc": {
+              "typ": "Razy",
+              "argument1": {
+                "nazwa": "aaa",
+                "typ": "Zmienna"
+              },
+              "argument2": {
+                "nazwa": "zzz",
+                "typ": "Zmienna"
+              }
+            },
+            "typ": "Przypisanie"
+          },
+          {
+            "nazwa": "aaa",
+            "wartosc": {
+              "typ": "Minus",
+              "argument1": {
+                "nazwa": "aaa",
+                "typ": "Zmienna"
+              },
+              "argument2": {
+                "wartosc": 1.0,
+                "typ": "Liczba"
+              }
+            },
+            "typ": "Przypisanie"
+          }
+        ],
+        "typ": "Blok"
+      },
+      "typ": "While"
+    },
+    {
+      "nazwa": "xxx",
+      "wartosc": {
+        "typ": "Dzielenie",
+        "argument1": {
+          "nazwa": "xxx",
+          "typ": "Zmienna"
+        },
+        "argument2": {
+          "nazwa": "zzz",
+          "typ": "Zmienna"
+        }
+      },
+      "typ": "Przypisanie"
+    },
+    {
+      "nazwa": "xxx",
+      "typ": "Zmienna"
+    }
+  ],
+  "typ": "Blok"
+}
